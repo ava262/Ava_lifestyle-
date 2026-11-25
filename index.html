@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17120f">
+  <meta name="description" content="Ava Lifestyle — creative marketing, visual storytelling and international brand collaboration.">
+  <title>Ava Lifestyle | Creative Marketing & Brand Partnerships</title>
+  <style>
+    :root{--ink:#17120f;--cream:#f7f2e9;--paper:#fffdf8;--red:#9f2d25;--gold:#c49a55;--muted:#716a61;--line:#e7ddcf}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(23,18,15,.96);color:#fff;padding:14px 0;border-bottom:1px solid rgba(196,154,85,.35)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-family:Georgia,serif;font-size:25px;letter-spacing:1px}.brand span{color:var(--gold)}
+    nav{display:flex;align-items:center;gap:24px;font-size:14px;color:#eee}.nav-actions{display:flex;gap:10px;align-items:center}
+    .lang{border:1px solid #76654e;background:transparent;color:#fff;border-radius:30px;padding:8px 13px;cursor:pointer}
+    .hero{background:linear-gradient(120deg,rgba(18,14,12,.94),rgba(57,31,25,.88)),radial-gradient(circle at 80% 20%,#9f2d25,transparent 45%);color:white;padding:100px 0 94px;overflow:hidden}
+    .eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:3px;font-size:12px;font-weight:bold}
+    h1{font-family:Georgia,serif;font-size:clamp(42px,7vw,76px);line-height:1.05;max-width:760px;margin:18px 0}
+    .hero p{font-size:18px;color:#e5ddd2;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+    .btn{display:inline-block;padding:13px 22px;border-radius:3px;font-weight:bold;font-size:14px;border:1px solid var(--gold)}
+    .primary{background:var(--gold);color:#1c1712}.secondary{color:white}
+    .intro{padding:76px 0;background:var(--paper)}.section-kicker{color:var(--red);font-size:12px;font-weight:bold;letter-spacing:2px;text-transform:uppercase}
+    h2{font-family:Georgia,serif;font-size:clamp(30px,4vw,46px);line-height:1.15;margin:10px 0 18px}
+    .intro-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:55px;align-items:center}.intro p{color:var(--muted);font-size:17px}
+    .quote{padding:28px;border-left:3px solid var(--gold);background:#f5eee3;font-family:Georgia,serif;font-size:22px}
+    .services{padding:78px 0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+    .card{background:var(--paper);border:1px solid var(--line);padding:26px;min-height:210px}.num{color:var(--gold);font-family:Georgia,serif;font-size:28px}
+    .card h3{font-family:Georgia,serif;font-size:22px;margin:10px 0}.card p{color:var(--muted);font-size:15px;margin:0}
+    .approach{background:#211916;color:#fff;padding:75px 0}.approach p{color:#d9cec2;max-width:760px;font-size:17px}
+    .pill-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}.pill{border:1px solid #79644b;color:#e9d9c0;padding:9px 14px;border-radius:30px;font-size:13px}
+    .contact{padding:78px 0;background:var(--paper)}.contact-box{background:var(--cream);border:1px solid var(--line);padding:34px;display:flex;justify-content:space-between;gap:30px;align-items:center}
+    .contact-box p{color:var(--muted);max-width:620px;margin-bottom:0}
+    footer{background:#17120f;color:#cfc4b7;padding:24px 0;font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    [dir="rtl"]{font-family:Tahoma,Arial,sans-serif}[dir="rtl"] nav{direction:rtl}[dir="rtl"] .quote{border-left:0;border-right:3px solid var(--gold)}
+    @media(max-width:760px){nav{display:none}.hero{padding:72px 0}.intro-grid{grid-template-columns:1fr;gap:25px}.cards{grid-template-columns:1fr}.contact-box{display:block}.contact-box .btn{margin-top:20px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#home">AVA <span>LIFESTYLE</span></a>
+  <nav><a href="#about" data-en="About" data-fa="درباره ما">About</a><a href="#services" data-en="Services" data-fa="خدمات">Services</a><a href="#approach" data-en="Our approach" data-fa="روش همکاری">Our approach</a><a href="#contact" data-en="Contact" data-fa="تماس">Contact</a></nav>
+  <div class="nav-actions"><button class="lang" id="langBtn" type="button">فارسی</button></div>
+</div></header>
+<main id="home">
+<section class="hero"><div class="wrap">
+  <div class="eyebrow" data-en="Creative marketing · Global partnerships" data-fa="بازاریابی خلاق · همکاری‌های بین‌المللی">Creative marketing · Global partnerships</div>
+  <h1 data-en="Make your brand<br>impossible to ignore." data-fa="برندتان را<br>ماندگار و دیده‌شدنی کنید.">Make your brand<br>impossible to ignore.</h1>
+  <p data-en="Ava Lifestyle helps brands tell compelling stories, create engaging digital content and build meaningful connections with customers around the world." data-fa="آوا لایف‌استایل به برندها کمک می‌کند داستانی جذاب روایت کنند، محتوای دیجیتال اثرگذار بسازند و با مشتریان در بازارهای مختلف ارتباطی مؤثر برقرار کنند.">Ava Lifestyle helps brands tell compelling stories, create engaging digital content and build meaningful connections with customers around the world.</p>
+  <div class="actions"><a class="btn primary" href="#services" data-en="Explore our services" data-fa="مشاهده خدمات">Explore our services</a><a class="btn secondary" href="#contact" data-en="Discuss a collaboration" data-fa="گفت‌وگو درباره همکاری">Discuss a collaboration</a></div>
+</div></section>
+<section class="intro" id="about"><div class="wrap intro-grid">
+  <div><div class="section-kicker" data-en="About Ava Lifestyle" data-fa="درباره آوا لایف‌استایل">About Ava Lifestyle</div><h2 data-en="Creative ideas. Clear goals. Real connections." data-fa="ایده‌های خلاق، هدف‌های روشن، ارتباط‌های واقعی.">Creative ideas. Clear goals. Real connections.</h2>
+  <p data-en="We bring together creative storytelling and practical marketing thinking to help products and services reach the right audiences. From campaign concepts to customer outreach, our focus is on useful work that supports measurable business goals." data-fa="ما روایت خلاقانه را با نگاه کاربردی به بازاریابی ترکیب می‌کنیم تا محصولات و خدمات به مخاطبان مناسب برسند. از ایده‌پردازی کمپین تا ارتباط با مشتریان، تمرکز ما بر فعالیت‌هایی است که از هدف‌های واقعی کسب‌وکار پشتیبانی می‌کنند.">We bring together creative storytelling and practical marketing thinking to help products and services reach the right audiences. From campaign concepts to customer outreach, our focus is on useful work that supports measurable business goals.</p></div>
+  <div class="quote" data-en="“Good marketing is not just about being seen. It is about being remembered — and making it easy to take the next step.”" data-fa="«بازاریابی خوب فقط دیده‌شدن نیست؛ ماندگارشدن در ذهن مخاطب و هموارکردن قدم بعدی است.»">“Good marketing is not just about being seen. It is about being remembered — and making it easy to take the next step.”</div>
+</div></section>
+<section class="services" id="services"><div class="wrap">
+  <div class="section-kicker" data-en="What we do" data-fa="خدمات ما">What we do</div><h2 data-en="Services designed to move brands forward." data-fa="خدماتی برای رشد و پیشرفت برندها.">Services designed to move brands forward.</h2>
+  <div class="cards">
+    <article class="card"><div class="num">01</div><h3 data-en="Digital Marketing" data-fa="بازاریابی دیجیتال">Digital Marketing</h3><p data-en="Campaign planning, audience research and digital promotion strategies shaped around your goals." data-fa="برنامه‌ریزی کمپین، شناخت مخاطب و طراحی راهبردهای تبلیغات دیجیتال متناسب با اهداف شما.">Campaign planning, audience research and digital promotion strategies shaped around your goals.</p></article>
+    <article class="card"><div class="num">02</div><h3 data-en="Creative Content" data-fa="تولید محتوای خلاق">Creative Content</h3><p data-en="AI-assisted campaign visuals, short-form video concepts and product storytelling for digital channels." data-fa="ایده‌پردازی تصاویر تبلیغاتی با کمک هوش مصنوعی، ویدئوهای کوتاه و روایت تصویری محصولات برای شبکه‌های دیجیتال.">AI-assisted campaign visuals, short-form video concepts and product storytelling for digital channels.</p></article>
+    <article class="card"><div class="num">03</div><h3 data-en="Customer Acquisition" data-fa="جذب مشتری و توسعه بازار">Customer Acquisition</h3><p data-en="Lead research, buyer outreach and partnership development to connect businesses with potential customers." data-fa="جست‌وجوی سرنخ‌های فروش، ارتباط با خریداران بالقوه و توسعه همکاری برای اتصال کسب‌وکارها به مشتریان جدید.">Lead research, buyer outreach and partnership development to connect businesses with potential customers.</p></article>
+    <article class="card"><div class="num">04</div><h3 data-en="Brand Partnerships" data-fa="همکاری با برندها">Brand Partnerships</h3><p data-en="Creative collaboration concepts for brands seeking fresh ways to present products and services." data-fa="طراحی ایده‌های همکاری خلاقانه برای برندهایی که به دنبال روش‌های تازه معرفی محصولات و خدمات خود هستند.">Creative collaboration concepts for brands seeking fresh ways to present products and services.</p></article>
+    <article class="card"><div class="num">05</div><h3 data-en="Affiliate Opportunities" data-fa="همکاری افیلیت و پورسانتی">Affiliate Opportunities</h3><p data-en="Exploring performance-based partnerships where terms, tracking and commission are clearly agreed in advance." data-fa="بررسی همکاری‌های مبتنی بر عملکرد و فروش، با توافق شفاف درباره شرایط، رهگیری و میزان پورسانت پیش از شروع.">Exploring performance-based partnerships where terms, tracking and commission are clearly agreed in advance.</p></article>
+    <article class="card"><div class="num">06</div><h3 data-en="International Outreach" data-fa="ارتباطات بین‌المللی">International Outreach</h3><p data-en="Connecting businesses, distributors and potential buyers across markets through focused research and outreach." data-fa="برقراری ارتباط میان کسب‌وکارها، توزیع‌کنندگان و خریداران بالقوه در بازارهای مختلف با تحقیق و پیگیری هدفمند.">Connecting businesses, distributors and potential buyers across markets through focused research and outreach.</p></article>
+  </div>
+</div></section>
+<section class="approach" id="approach"><div class="wrap">
+  <div class="section-kicker" data-en="How we work" data-fa="شیوه همکاری">How we work</div><h2 data-en="Flexible collaboration. Focused on outcomes." data-fa="همکاری منعطف با تمرکز بر نتیجه.">Flexible collaboration. Focused on outcomes.</h2>
+  <p data-en="Every project starts with understanding the product, the target customer and the business objective. Scope, deliverables, timelines and payment terms are discussed and confirmed before work begins. Remote and performance-based arrangements may be considered where suitable." data-fa="هر پروژه با شناخت محصول، مشتری هدف و هدف تجاری آغاز می‌شود. محدوده کار، خروجی‌ها، زمان‌بندی و شرایط پرداخت پیش از شروع بررسی و نهایی می‌شوند. در صورت تناسب، امکان همکاری دورکاری و مبتنی بر عملکرد نیز قابل بررسی است.">Every project starts with understanding the product, the target customer and the business objective. Scope, deliverables, timelines and payment terms are discussed and confirmed before work begins. Remote and performance-based arrangements may be considered where suitable.</p>
+  <div class="pill-row"><span class="pill" data-en="Remote-friendly" data-fa="مناسب دورکاری">Remote-friendly</span><span class="pill" data-en="Project-based" data-fa="پروژه‌ای">Project-based</span><span class="pill" data-en="Performance-based options" data-fa="امکان همکاری پورسانتی">Performance-based options</span><span class="pill" data-en="International focus" data-fa="تمرکز بین‌المللی">International focus</span></div>
+</div></section>
+<section class="contact" id="contact"><div class="wrap contact-box">
+  <div><div class="section-kicker" data-en="Let's connect" data-fa="در ارتباط باشیم">Let's connect</div><h2 data-en="Have a product, a brief or a partnership idea?" data-fa="محصول، درخواست همکاری یا ایده‌ای برای مشارکت دارید؟">Have a product, a brief or a partnership idea?</h2>
+  <p data-en="We welcome inquiries from brands, businesses, distributors and marketing teams. Contact information will be added here before the website is shared publicly." data-fa="از پیام برندها، شرکت‌ها، توزیع‌کنندگان و تیم‌های بازاریابی استقبال می‌کنیم. اطلاعات تماس پیش از انتشار عمومی سایت در این بخش اضافه خواهد شد.">We welcome inquiries from brands, businesses, distributors and marketing teams. Contact information will be added here before the website is shared publicly.</p></div>
+  <a class="btn primary" href="#home" data-en="Back to top" data-fa="بازگشت به بالا">Back to top</a>
+</div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> Ava Lifestyle. All rights reserved.</span><span data-en="Creative marketing & international brand collaboration" data-fa="بازاریابی خلاق و همکاری بین‌المللی با برندها">Creative marketing & international brand collaboration</span></div></footer>
+<script>
+  const btn=document.getElementById('langBtn');
+  let fa=false;
+  btn.addEventListener('click',()=>{
+    fa=!fa;
+    document.documentElement.lang=fa?'fa':'en';
+    document.documentElement.dir=fa?'rtl':'ltr';
+    document.querySelectorAll('[data-en]').forEach(el=>{el.innerHTML=fa?el.dataset.fa:el.dataset.en;});
+    btn.textContent=fa?'English':'فارسی';
+  });
+  document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
